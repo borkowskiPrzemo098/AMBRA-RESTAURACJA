@@ -3,16 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Złoty Kłos — bistro z sezonową kuchnią polską, Gdańsk</title>
-<meta name="description" content="Złoty Kłos — bistro w Gdańsku. Sezonowa kuchnia polska, chleb z własnego pieca, rezerwacja stolika online. Otwarte wt–nd.">
-<meta property="og:title" content="Złoty Kłos — bistro, Gdańsk">
-<meta property="og:description" content="Sezonowa kuchnia polska i chleb z własnego pieca. Zarezerwuj stolik online.">
-<meta property="og:image" content="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&q=80">
-<meta name="theme-color" content="#fbf7ef">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23b8862f'/%3E%3Cpath d='M16 6v20M16 11l-4-3M16 11l4-3M16 16l-4-3M16 16l4-3M16 21l-4-3M16 21l4-3' stroke='%23fff' stroke-width='2' stroke-linecap='round' fill='none'/%3E%3C/svg%3E">
+<title>AMBRA — restauracja degustacyjna nad Motławą, Gdańsk</title>
+<meta name="description" content="AMBRA — restauracja degustacyjna w Gdańsku. Menu Bursztyn w dziewięciu daniach, piwnica 1200 etykiet, 24 miejsca. Rezerwacja online.">
+<meta property="og:title" content="AMBRA — restauracja degustacyjna, Gdańsk">
+<meta property="og:description" content="Dziewięć dań o Pomorzu. 24 miejsca, jedna kolacja dziennie. Zarezerwuj stolik.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=80">
+<meta name="theme-color" content="#faf7f1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231f1a14'/%3E%3Cpath d='M16 6l8 20M16 6L8 26M11 19h10' stroke='%23c9a86a' stroke-width='2' fill='none'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400;1,6..96,500&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,62 +20,62 @@
 
 <header class="header" id="top">
   <div class="wrap header__in">
-    <a class="logo" href="#top" aria-label="Złoty Kłos — strona główna">
-      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="currentColor"/><path d="M16 6v20M16 11l-4-3M16 11l4-3M16 16l-4-3M16 16l4-3M16 21l-4-3M16 21l4-3" stroke="#fff" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
-      <span>Złoty Kłos</span>
-    </a>
+    <a class="brand" href="#top" aria-label="AMBRA — strona główna">AMBRA</a>
     <nav class="nav" id="nav" aria-label="Główna nawigacja">
+      <a href="#szef">Szef kuchni</a>
       <a href="#menu">Menu</a>
-      <a href="#o-nas">O nas</a>
-      <a href="#galeria">Galeria</a>
-      <a href="#opinie">Opinie</a>
-      <a href="#kontakt">Kontakt</a>
-      <a class="btn btn--gold nav__cta" href="#rezerwacja">Zarezerwuj stolik</a>
+      <a href="#piwnica">Piwnica</a>
+      <a href="#galeria">Wnętrze</a>
+      <a href="#sala">Sala prywatna</a>
+      <a class="btn btn--gold nav__cta" href="#rezerwacja">Rezerwacja</a>
     </nav>
     <button class="burger" id="burger" aria-label="Otwórz menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
   </div>
 </header>
 
 <main>
-<section class="hero">
-  <div class="wrap hero__in">
-    <div class="hero__text">
+<section class="hero" aria-labelledby="hero-h">
+  <div class="wrap hero__top">
+    <h1 id="hero-h">Pomorze<br><em>w dziewięciu</em><br>aktach.</h1>
+    <div class="hero__side">
       <p class="status" id="status" aria-live="polite"><span class="status__dot"></span><span id="statusText">Sprawdzam godziny…</span></p>
-      <h1>Kuchnia z&nbsp;tego, co&nbsp;właśnie dojrzało.</h1>
-      <p class="lead">Bistro na gdańskiej Oruni. Chleb wypiekamy co rano w piecu opalanym drewnem, a karta zmienia się razem z targiem: szparagi w maju, kurki w sierpniu, dynia w październiku.</p>
+      <p class="hero__lead">Restauracja degustacyjna przy Długim Pobrzeżu. Dwadzieścia cztery miejsca, jedna kolacja każdego wieczoru i&nbsp;kuchnia zbudowana z&nbsp;tego, co daje Bałtyk, Kaszuby i&nbsp;Żuławy.</p>
       <div class="hero__cta">
-        <a class="btn btn--gold btn--lg" href="#rezerwacja">Zarezerwuj stolik
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-        <a class="btn btn--ghost btn--lg" href="#menu">Zobacz menu</a>
+        <a class="btn btn--gold btn--lg" href="#rezerwacja">Zarezerwuj kolację</a>
+        <a class="btn btn--line btn--lg" href="#menu">Poznaj menu</a>
       </div>
-      <ul class="facts">
-        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>ul. Piaskowa 12, Gdańsk</li>
-        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><a href="tel:+48583012345">58 301 23 45</a></li>
-      </ul>
     </div>
-    <figure class="hero__img">
-      <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1100&q=80" alt="Nakryty stół w jasnej sali bistro" width="1100" height="1300" fetchpriority="high">
-      <figcaption class="hero__badge"><strong>4,9</strong><span>średnia z 640 opinii Google</span></figcaption>
-    </figure>
+  </div>
+  <div class="hero__media" id="heroMedia">
+    <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=2000&q=80" alt="Sala restauracji z białymi obrusami i widokiem przez wysokie okna" width="2000" height="1333" fetchpriority="high">
+    <div class="hero__card">
+      <span class="hero__card-k">Menu Bursztyn</span>
+      <strong>9 dań</strong>
+      <span>590 zł od osoby · do wyboru z doborem win</span>
+    </div>
   </div>
 </section>
 
-<section class="signature" aria-labelledby="sig-h">
-  <div class="wrap">
-    <h2 id="sig-h" class="h2">Trzy talerze, po które się wraca</h2>
-    <div class="sig">
-      <article class="sig__item sig__item--big">
-        <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?w=1000&q=80" alt="Stek z polędwicy z pieczonymi warzywami" loading="lazy" width="1000" height="700">
-        <div class="sig__body"><h3>Polędwica z Kaszub</h3><p>Sezonowana 28 dni, masło z czosnkiem niedźwiedzim, frytki z rozmarynem.</p><span class="price">89 zł</span></div>
-      </article>
-      <article class="sig__item">
-        <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80" alt="Domowy makaron z sosem i ziołami" loading="lazy" width="800" height="600">
-        <div class="sig__body"><h3>Tagliatelle z kurkami</h3><p>Ręcznie krojony makaron, śmietana z Mlekovity, tymianek.</p><span class="price">46 zł</span></div>
-      </article>
-      <article class="sig__item">
-        <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80" alt="Deser z owocami jagodowymi" loading="lazy" width="800" height="600">
-        <div class="sig__body"><h3>Pavlova z jagodami</h3><p>Beza na zimno, krem z mascarpone, jagody z Borów Tucholskich.</p><span class="price">28 zł</span></div>
-      </article>
+<section class="facts" aria-label="AMBRA w liczbach">
+  <div class="wrap facts__in">
+    <div><strong>24</strong><span>miejsca przy jedenastu stołach</span></div>
+    <div><strong>1&nbsp;200</strong><span>etykiet w piwnicy z XVII&nbsp;wieku</span></div>
+    <div><strong>3,5 h</strong><span>tyle trwa pełna kolacja degustacyjna</span></div>
+    <div><strong>17</strong><span>pomorskich gospodarstw i&nbsp;łodzi rybackich</span></div>
+  </div>
+</section>
+
+<section class="chef" id="szef" aria-labelledby="chef-h">
+  <div class="wrap chef__in">
+    <figure class="chef__img frame">
+      <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=1000&q=80" alt="Szef kuchni wykańcza danie pęsetą pod miedzianymi lampami" loading="lazy" width="1000" height="1250">
+    </figure>
+    <div class="chef__text">
+      <h2 id="chef-h" class="h2">Kuchnia, która pamięta, skąd&nbsp;jest.</h2>
+      <blockquote class="quote">„Nie gotuję dań, gotuję miejsca. Każdy talerz ma swój adres — przystań w&nbsp;Jastarni, sad pod Kartuzami, łąkę na Żuławach.”</blockquote>
+      <p>Adam Rejewski przez osiem lat prowadził zmianę w kopenhaskich kuchniach, zanim w&nbsp;2014 roku wrócił do Gdańska i&nbsp;otworzył AMBRĘ w&nbsp;kamienicy, w&nbsp;której jego dziadek miał warsztat bursztynniczy.</p>
+      <p>Menu zmienia się cztery razy w&nbsp;roku. Fermentujemy, wędzimy i&nbsp;suszymy na miejscu, a&nbsp;chleb z&nbsp;żytniej mąki z&nbsp;młyna w&nbsp;Kościerzynie wychodzi z&nbsp;pieca dwadzieścia minut przed pierwszym gościem.</p>
+      <p class="sign">Adam Rejewski<span>szef kuchni i&nbsp;współwłaściciel</span></p>
     </div>
   </div>
 </section>
@@ -83,39 +83,46 @@
 <section class="menu" id="menu" aria-labelledby="menu-h">
   <div class="wrap">
     <div class="menu__head">
-      <h2 id="menu-h" class="h2">Karta na październik</h2>
-      <p>Wybierz, co lubisz. Alergeny podajemy przy każdym daniu — zapytaj kelnera o szczegóły.</p>
+      <h2 id="menu-h" class="h2">Menu jesień 2026</h2>
+      <div class="tabs" role="tablist" aria-label="Wybierz menu degustacyjne">
+        <button role="tab" class="tab is-on" aria-selected="true" data-menu="bursztyn">Bursztyn<small>9 dań · 590 zł</small></button>
+        <button role="tab" class="tab" aria-selected="false" data-menu="baltyk">Bałtyk<small>6 dań · 420 zł</small></button>
+        <button role="tab" class="tab" aria-selected="false" data-menu="ogrod">Ogród<small>7 dań roślinnych · 380 zł</small></button>
+      </div>
     </div>
-    <div class="filters" role="group" aria-label="Filtruj menu">
-      <button class="chip is-on" data-filter="all" aria-pressed="true">Wszystko</button>
-      <button class="chip" data-filter="start" aria-pressed="false">Przystawki</button>
-      <button class="chip" data-filter="soup" aria-pressed="false">Zupy</button>
-      <button class="chip" data-filter="main" aria-pressed="false">Dania główne</button>
-      <button class="chip" data-filter="dessert" aria-pressed="false">Desery</button>
-      <span class="filters__sep" aria-hidden="true"></span>
-      <button class="chip chip--tag" data-tag="vege" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19c0-8 5-13 14-14-1 9-6 14-14 14zM5 19l7-7"/></svg>Wege</button>
-      <button class="chip chip--tag" data-tag="gf" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M12 8l-3-2M12 8l3-2M12 13l-3-2M12 13l3-2M4 4l16 16"/></svg>Bez glutenu</button>
+    <div class="menu__body">
+      <figure class="menu__img" aria-hidden="true">
+        <img id="courseImg" src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1100&q=80" alt="" width="1100" height="1300">
+        <figcaption id="courseCap"></figcaption>
+      </figure>
+      <div class="menu__list">
+        <p class="menu__intro" id="menuIntro"></p>
+        <ol class="courses" id="courses"></ol>
+        <div class="menu__foot">
+          <p><strong id="menuPrice">590 zł</strong> od osoby<br><span id="menuPair">Dobór win klasyczny +390 zł · Prestige +790 zł · bezalkoholowy +190 zł</span></p>
+          <a class="btn btn--gold" href="#rezerwacja" id="menuBook">Rezerwuj to menu</a>
+        </div>
+        <p class="menu__note">Alergie i&nbsp;dietę uwzględnimy, jeśli poinformujesz nas przy rezerwacji — najpóźniej 48&nbsp;godzin przed kolacją.</p>
+      </div>
     </div>
-    <div class="dishes" id="dishes"></div>
-    <p class="empty" id="empty" hidden>Brak dań spełniających oba filtry. <button class="link" id="reset">Wyczyść filtry</button></p>
   </div>
 </section>
 
-<section class="about" id="o-nas" aria-labelledby="about-h">
-  <div class="wrap about__in">
-    <div class="about__img">
-      <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=900&q=80" alt="Wnętrze bistro z ciepłym światłem" loading="lazy" width="900" height="1100">
+<section class="cellar" id="piwnica" aria-labelledby="cellar-h">
+  <div class="wrap cellar__in">
+    <div class="cellar__text">
+      <h2 id="cellar-h" class="h2">Piwnica pod Długim Pobrzeżem</h2>
+      <p class="cellar__big"><strong>1&nbsp;200</strong> etykiet, z&nbsp;czego 140 dostępnych na kieliszki z&nbsp;systemu Coravin.</p>
+      <p>Sommelierka Joanna Lis buduje kartę wokół małych winnic z&nbsp;Burgundii, Wachau i&nbsp;Moraw — oraz najlepszych polskich roczników z&nbsp;Małopolskiego Przełomu Wisły. Do każdego menu przygotowuje trzy dobory.</p>
     </div>
-    <div class="about__text">
-      <h2 id="about-h" class="h2">Dziesięć lat, jeden piec i&nbsp;krótka lista dostawców</h2>
-      <p>Złoty Kłos otworzyli w 2016 roku Marta i Tomasz Wrona — ona piekarka, on kucharz po latach w Kopenhadze. Zaczynali od sześciu stolików i chleba sprzedawanego przez okno.</p>
-      <p>Dziś mamy 48 miejsc, ogródek pod lipą i dwunastu rolników, od których kupujemy niemal wszystko. Mąka pochodzi z młyna w Kościerzynie, ryby z kutrów w Jastarni.</p>
-      <ul class="nums">
-        <li><strong>12</strong><span>lokalnych dostawców</span></li>
-        <li><strong>48</strong><span>miejsc + ogródek</span></li>
-        <li><strong>6:00</strong><span>pierwszy wypiek chleba</span></li>
-      </ul>
-    </div>
+    <figure class="cellar__img frame">
+      <img src="https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=1100&q=80" alt="Kieliszek czerwonego wina na tle winnicy" loading="lazy" width="1100" height="825">
+    </figure>
+    <ul class="pairs">
+      <li><span>Dobór klasyczny</span><strong>390 zł</strong><p>Siedem kieliszków, wina z&nbsp;małych winnic Europy i&nbsp;Polski.</p></li>
+      <li class="pairs__hl"><span>Dobór Prestige</span><strong>790 zł</strong><p>Grand Cru z&nbsp;Burgundii, dojrzałe szampany, roczniki z&nbsp;piwnicy.</p></li>
+      <li><span>Dobór bezalkoholowy</span><strong>190 zł</strong><p>Kombuche, fermentowane soki i&nbsp;napary przygotowywane w&nbsp;AMBRZE.</p></li>
+    </ul>
   </div>
 </section>
 
@@ -130,116 +137,145 @@
     </div>
   </div>
   <div class="track" id="track" tabindex="0" aria-label="Galeria zdjęć, przewijana w poziomie">
-    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=900&q=75" alt="Sala restauracyjna z drewnianymi stołami" loading="lazy">
-    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=900&q=75" alt="Danie główne podane na talerzu" loading="lazy">
-    <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=900&q=75" alt="Pizza z pieca opalanego drewnem" loading="lazy">
-    <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=900&q=75" alt="Miska sałatki z warzywami" loading="lazy">
-    <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=900&q=75" alt="Kuchnia w trakcie pracy" loading="lazy">
-    <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=900&q=75" alt="Ryba z warzywami na talerzu" loading="lazy">
+    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=900&q=75" alt="Sala restauracyjna wieczorem" loading="lazy">
+    <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=900&q=75" alt="Łosoś z warzywami i jadalnymi kwiatami" loading="lazy">
+    <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=900&q=75" alt="Bursztynowy koktajl przelewany przez sitko" loading="lazy">
+    <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=900&q=75" alt="Precyzyjne krojenie ziół w kuchni" loading="lazy">
+    <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=900&q=75" alt="Deser polewany karmelem" loading="lazy">
+    <img src="https://images.unsplash.com/photo-1590577976322-3d2d6e2130d5?w=900&q=75" alt="Jasna sala z roślinami i lastryko" loading="lazy">
   </div>
 </section>
 
-<section class="reviews" id="opinie" aria-labelledby="rev-h">
+<section class="reviews" aria-labelledby="rev-h">
   <div class="wrap">
-    <h2 id="rev-h" class="h2">Co mówią goście</h2>
+    <h2 id="rev-h" class="h2">Wieczory, o których się opowiada</h2>
     <div class="rev">
       <figure class="rev__card">
-        <div class="stars" aria-label="5 na 5 gwiazdek"><i></i><i></i><i></i><i></i><i></i></div>
-        <blockquote>Chleb na zakwasie z masłem ziołowym to powód, żeby przyjechać z Sopotu. Kurki w śmietanie — najlepsze w tym roku.</blockquote>
-        <figcaption><b>Agnieszka K.</b><span>Google, wrzesień 2026</span></figcaption>
+        <svg class="rev__q" viewBox="0 0 48 36" aria-hidden="true"><path d="M0 36V20C0 8 7 1 19 0v7c-6 1-9 5-9 11h9v18zm29 0V20C29 8 36 1 48 0v7c-6 1-9 5-9 11h9v18z"/></svg>
+        <blockquote>Śledź z kiszonym jabłkiem i masłem z ikry to danie, które będę wspominać latami. Obsługa jak w najlepszych domach Kopenhagi.</blockquote>
+        <figcaption><b>Katarzyna M.</b><span>kolacja rocznicowa, wrzesień 2026</span></figcaption>
       </figure>
       <figure class="rev__card">
-        <div class="stars" aria-label="5 na 5 gwiazdek"><i></i><i></i><i></i><i></i><i></i></div>
-        <blockquote>Byliśmy na rocznicy. Obsługa sama zaproponowała stolik w ogródku i wino do polędwicy. Bez zadęcia, a bardzo elegancko.</blockquote>
-        <figcaption><b>Paweł i Ola</b><span>Google, sierpień 2026</span></figcaption>
+        <svg class="rev__q" viewBox="0 0 48 36" aria-hidden="true"><path d="M0 36V20C0 8 7 1 19 0v7c-6 1-9 5-9 11h9v18zm29 0V20C29 8 36 1 48 0v7c-6 1-9 5-9 11h9v18z"/></svg>
+        <blockquote>Dobór Prestige z rocznikiem Chablis z 2014 roku — sommelierka opowiadała o każdym winie tak, że chciało się zostać do rana.</blockquote>
+        <figcaption><b>Michał i Anna</b><span>menu Bursztyn, sierpień 2026</span></figcaption>
       </figure>
       <figure class="rev__card">
-        <div class="stars" aria-label="5 na 5 gwiazdek"><i></i><i></i><i></i><i></i><i></i></div>
-        <blockquote>Wreszcie miejsce, gdzie bez glutenu nie znaczy „sałatka”. Kelner znał skład każdego dania na pamięć.</blockquote>
-        <figcaption><b>Marek W.</b><span>TripAdvisor, lipiec 2026</span></figcaption>
+        <svg class="rev__q" viewBox="0 0 48 36" aria-hidden="true"><path d="M0 36V20C0 8 7 1 19 0v7c-6 1-9 5-9 11h9v18zm29 0V20C29 8 36 1 48 0v7c-6 1-9 5-9 11h9v18z"/></svg>
+        <blockquote>Menu Ogród przekonało nawet mojego męża mięsożercę. Siedem dań bez grama nudy, a tatar z buraka to mistrzostwo.</blockquote>
+        <figcaption><b>Ewa D.</b><span>menu Ogród, lipiec 2026</span></figcaption>
       </figure>
+    </div>
+  </div>
+</section>
+
+<section class="private" id="sala" aria-labelledby="priv-h">
+  <div class="private__media"><img id="privImg" src="https://images.unsplash.com/photo-1590577976322-3d2d6e2130d5?w=1800&q=80" alt="Jasna sala prywatna z okrągłymi stołami" loading="lazy" width="1800" height="1200"></div>
+  <div class="wrap">
+    <div class="private__card">
+      <h2 id="priv-h" class="h2">Sala Kupiecka na wyłączność</h2>
+      <p>Kameralna sala na piętrze dla 8–14 osób, z&nbsp;oknami na Motławę. Kolacje rodzinne, spotkania zarządów, zaręczyny. Menu ustalamy indywidualnie z&nbsp;szefem kuchni.</p>
+      <ul class="ticks">
+        <li>osobny kelner i&nbsp;sommelier na cały wieczór</li>
+        <li>menu drukowane z&nbsp;imionami gości</li>
+        <li>od 650 zł od osoby z&nbsp;doborem win</li>
+      </ul>
+      <a class="btn btn--line" href="mailto:sala@ambra.gda.pl?subject=Sala%20Kupiecka%20%E2%80%94%20zapytanie">Zapytaj o termin</a>
     </div>
   </div>
 </section>
 
 <section class="book" id="rezerwacja" aria-labelledby="book-h">
   <div class="wrap book__in">
-    <div class="book__text">
-      <h2 id="book-h" class="h2">Zarezerwuj stolik</h2>
-      <p>Potwierdzimy rezerwację SMS-em w ciągu 15 minut. Grupy powyżej 8 osób i imprezy zamknięte — zadzwoń: <a href="tel:+48583012345">58 301 23 45</a>.</p>
+    <div class="book__aside">
+      <h2 id="book-h" class="h2">Rezerwacja</h2>
+      <p>Przyjmujemy rezerwacje na 60 dni naprzód. Potwierdzimy ją e-mailem w&nbsp;ciągu godziny.</p>
+      <div class="summary" id="summary" aria-live="polite">
+        <span class="summary__k">Twoja kolacja</span>
+        <dl>
+          <div><dt>Menu</dt><dd id="sMenu">Bursztyn</dd></div>
+          <div><dt>Goście</dt><dd id="sPeople">2 osoby</dd></div>
+          <div><dt>Termin</dt><dd id="sWhen">—</dd></div>
+        </dl>
+        <p class="summary__total"><span>Razem bez win</span><strong id="sTotal">1 180 zł</strong></p>
+        <p class="summary__dep">Przedpłata 200 zł od osoby przy potwierdzeniu — zwracana przy odwołaniu do 72 h przed kolacją.</p>
+      </div>
       <ul class="hours" id="hours" aria-label="Godziny otwarcia">
         <li data-d="1"><span>Poniedziałek</span><span>zamknięte</span></li>
-        <li data-d="2"><span>Wtorek</span><span>12:00–22:00</span></li>
-        <li data-d="3"><span>Środa</span><span>12:00–22:00</span></li>
-        <li data-d="4"><span>Czwartek</span><span>12:00–22:00</span></li>
-        <li data-d="5"><span>Piątek</span><span>12:00–23:00</span></li>
-        <li data-d="6"><span>Sobota</span><span>10:00–23:00</span></li>
-        <li data-d="0"><span>Niedziela</span><span>10:00–21:00</span></li>
+        <li data-d="2"><span>Wtorek</span><span>zamknięte</span></li>
+        <li data-d="3"><span>Środa – czwartek</span><span>17:30–23:00</span></li>
+        <li data-d="5"><span>Piątek – sobota</span><span>17:30–24:00</span></li>
+        <li data-d="0"><span>Niedziela</span><span>13:00–20:00</span></li>
       </ul>
     </div>
+
     <form class="form" id="form" novalidate>
-      <div class="form__body" id="formBody">
-        <fieldset class="people">
-          <legend>Liczba osób</legend>
-          <div class="people__row">
-            <label><input type="radio" name="people" value="1"><span>1</span></label>
-            <label><input type="radio" name="people" value="2" checked><span>2</span></label>
-            <label><input type="radio" name="people" value="3"><span>3</span></label>
-            <label><input type="radio" name="people" value="4"><span>4</span></label>
-            <label><input type="radio" name="people" value="6"><span>5–6</span></label>
-            <label><input type="radio" name="people" value="8"><span>7–8</span></label>
+      <div id="formBody">
+        <fieldset>
+          <legend>Menu</legend>
+          <div class="opts opts--3">
+            <label><input type="radio" name="menu" value="bursztyn" checked><span><b>Bursztyn</b><small>9 dań · 590 zł</small></span></label>
+            <label><input type="radio" name="menu" value="baltyk"><span><b>Bałtyk</b><small>6 dań · 420 zł</small></span></label>
+            <label><input type="radio" name="menu" value="ogrod"><span><b>Ogród</b><small>7 dań · 380 zł</small></span></label>
           </div>
         </fieldset>
+        <fieldset>
+          <legend>Liczba gości</legend>
+          <div class="opts opts--6" id="peopleOpts">
+            <label><input type="radio" name="people" value="1"><span><b>1</b></span></label>
+            <label><input type="radio" name="people" value="2" checked><span><b>2</b></span></label>
+            <label><input type="radio" name="people" value="3"><span><b>3</b></span></label>
+            <label><input type="radio" name="people" value="4"><span><b>4</b></span></label>
+            <label><input type="radio" name="people" value="5"><span><b>5</b></span></label>
+            <label><input type="radio" name="people" value="6"><span><b>6</b></span></label>
+          </div>
+          <p class="hint">Większe grupy przyjmujemy w&nbsp;<a href="#sala">Sali Kupieckiej</a>.</p>
+        </fieldset>
+        <fieldset>
+          <legend>Dzień <span class="err" id="day-err"></span></legend>
+          <div class="days" id="days" role="radiogroup" aria-label="Wybierz dzień"></div>
+        </fieldset>
+        <fieldset>
+          <legend>Godzina <span class="err" id="time-err"></span></legend>
+          <div class="times" id="times" role="radiogroup" aria-label="Wybierz godzinę"><p class="hint">Najpierw wybierz dzień.</p></div>
+        </fieldset>
         <div class="grid2">
-          <div class="field"><label for="date">Data</label><input id="date" name="date" type="date" required><p class="err" id="date-err"></p></div>
-          <div class="field"><label for="time">Godzina</label><select id="time" name="time" required><option value="">Najpierw wybierz datę</option></select><p class="err" id="time-err"></p></div>
+          <div class="field"><label for="name">Imię i nazwisko</label><input id="name" name="name" autocomplete="name"><p class="err" id="name-err"></p></div>
+          <div class="field"><label for="phone">Telefon</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="600 100 200"><p class="err" id="phone-err"></p></div>
         </div>
-        <div class="grid2">
-          <div class="field"><label for="name">Imię i nazwisko</label><input id="name" name="name" autocomplete="name" required><p class="err" id="name-err"></p></div>
-          <div class="field"><label for="phone">Telefon</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="np. 600 100 200" required><p class="err" id="phone-err"></p></div>
-        </div>
-        <div class="field"><label for="note">Uwagi <span class="opt">(opcjonalnie)</span></label><textarea id="note" name="note" rows="2" placeholder="Alergie, krzesełko dla dziecka, stolik w ogródku…"></textarea></div>
-        <button class="btn btn--gold btn--lg btn--full" type="submit" id="submit">Zarezerwuj stolik</button>
-        <p class="form__note">To projekt demonstracyjny — formularz nie wysyła danych.</p>
+        <div class="field"><label for="email">E-mail</label><input id="email" name="email" type="email" autocomplete="email" placeholder="na ten adres wyślemy potwierdzenie"><p class="err" id="email-err"></p></div>
+        <div class="field"><label for="note">Alergie, okazja, życzenia <span class="opt">(opcjonalnie)</span></label><textarea id="note" name="note" rows="2" placeholder="np. rocznica, bez orzechów, stolik przy oknie"></textarea></div>
+        <button class="btn btn--gold btn--lg btn--full" type="submit" id="submit">Potwierdź rezerwację</button>
+        <p class="form__note">Projekt demonstracyjny — formularz nie wysyła danych.</p>
       </div>
       <div class="done" id="done" hidden tabindex="-1">
         <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22"/><path d="M14 24l7 7 13-14"/></svg>
-        <h3>Dziękujemy!</h3>
+        <h3>Do zobaczenia w&nbsp;AMBRZE</h3>
         <p id="doneText"></p>
-        <button class="btn btn--ghost" type="button" id="again">Nowa rezerwacja</button>
+        <button class="btn btn--line" type="button" id="again">Nowa rezerwacja</button>
       </div>
     </form>
-  </div>
-</section>
-
-<section class="contact" id="kontakt" aria-labelledby="con-h">
-  <div class="wrap contact__in">
-    <div class="contact__info">
-      <h2 id="con-h" class="h2">Jak do nas trafić</h2>
-      <dl>
-        <div><dt>Adres</dt><dd>ul. Piaskowa 12<br>80-001 Gdańsk-Orunia</dd></div>
-        <div><dt>Telefon</dt><dd><a href="tel:+48583012345">58 301 23 45</a></dd></div>
-        <div><dt>E-mail</dt><dd><a href="mailto:stolik@zlotyklos.pl">stolik@zlotyklos.pl</a></dd></div>
-        <div><dt>Dojazd</dt><dd>Tramwaj 8 i 9, przystanek Orunia Górna. Parking dla gości za budynkiem.</dd></div>
-      </dl>
-    </div>
-    <div class="map">
-      <iframe title="Mapa dojazdu do Złotego Kłosa" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=18.6150%2C54.3400%2C18.6450%2C54.3550&amp;layer=mapnik&amp;marker=54.3475%2C18.6300"></iframe>
-    </div>
   </div>
 </section>
 </main>
 
 <footer class="footer">
-  <div class="wrap footer__in">
-    <a class="logo logo--light" href="#top"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="currentColor"/><path d="M16 6v20M16 11l-4-3M16 11l4-3M16 16l-4-3M16 16l4-3M16 21l-4-3M16 21l4-3" stroke="#3a2a12" stroke-width="2" stroke-linecap="round" fill="none"/></svg><span>Złoty Kłos</span></a>
-    <p>Bistro · ul. Piaskowa 12, Gdańsk · wt–nd</p>
-    <p class="footer__small">Projekt koncepcyjny do portfolio · <a href="https://borkowskiprzemo098.github.io/PORTFOLIO/">PBDesign</a> · zdjęcia: Unsplash</p>
+  <div class="wrap">
+    <p class="footer__word" aria-hidden="true">AMBRA</p>
+    <div class="footer__grid">
+      <div><h3>Adres</h3><p>Długie Pobrzeże 7<br>80-888 Gdańsk<br><a href="https://www.openstreetmap.org/?mlat=54.3498&amp;mlon=18.6578#map=17/54.3498/18.6578" target="_blank" rel="noopener">Pokaż na mapie</a></p></div>
+      <div><h3>Kontakt</h3><p><a href="tel:+48583205500">+48 58 320 55 00</a><br><a href="mailto:stol@ambra.gda.pl">stol@ambra.gda.pl</a></p></div>
+      <div><h3>Godziny</h3><p>śr–czw 17:30–23:00<br>pt–sob 17:30–24:00<br>nd 13:00–20:00</p></div>
+      <div><h3>Dojazd</h3><p>5 minut pieszo od Żurawia.<br>Valet parking w&nbsp;piątki i&nbsp;soboty.</p></div>
+    </div>
+    <p class="footer__small">Projekt koncepcyjny do portfolio — <a href="https://borkowskiprzemo098.github.io/PORTFOLIO/">PBDesign</a>. Restauracja i&nbsp;osoby są fikcyjne, zdjęcia: Unsplash.</p>
   </div>
 </footer>
 
-<a class="fab" href="#rezerwacja" aria-label="Zarezerwuj stolik"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Rezerwuj</a>
+<a class="fab" href="#rezerwacja">Rezerwacja</a>
 
-<script src="app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="app.js" defer></script>
 </body>
 </html>
