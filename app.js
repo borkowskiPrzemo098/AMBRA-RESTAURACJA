@@ -4,7 +4,7 @@ const DAYS = ['niedzielę', 'poniedziałek', 'wtorek', 'środę', 'czwartek', 'p
 const SHORT = ['nd', 'pn', 'wt', 'śr', 'cz', 'pt', 'sb'];
 const MONTHS = ['sty', 'lut', 'mar', 'kwi', 'maj', 'cze', 'lip', 'sie', 'wrz', 'paź', 'lis', 'gru'];
 const hm = m => `${Math.floor(m / 60) % 24}:${String(m % 60).padStart(2, '0')}`;
-const zl = n => n.toLocaleString('pl-PL').replace(/ /g, ' ') + ' zł';
+const zl = n => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ' ') + ' zł';
 const $ = s => document.querySelector(s);
 
 // --- status
@@ -236,8 +236,8 @@ new IntersectionObserver(([en]) => fab.classList.toggle('is-hidden', en.isInters
 window.addEventListener('load', () => {
   if (!window.gsap || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
   gsap.registerPlugin(ScrollTrigger);
-  gsap.fromTo('#heroMedia', { width: () => Math.min(1320, innerWidth - 32) }, {
-    width: () => innerWidth, ease: 'none',
+  gsap.fromTo('#heroMedia', { width: () => Math.min(1320, document.documentElement.clientWidth - 32) }, {
+    width: () => document.documentElement.clientWidth, ease: 'none',
     scrollTrigger: { trigger: '#heroMedia', start: 'top 85%', end: 'top 15%', scrub: true, invalidateOnRefresh: true },
   });
   gsap.fromTo('#heroMedia img', { scale: 1.12 }, { scale: 1, ease: 'none', scrollTrigger: { trigger: '#heroMedia', start: 'top bottom', end: 'bottom top', scrub: true } });
