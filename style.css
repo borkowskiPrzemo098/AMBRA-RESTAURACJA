@@ -268,7 +268,7 @@ legend { display: flex; align-items: center; gap: 12px; padding: 0; margin-botto
   .brand span { font-size: 19px; }
   .hero { padding-top: calc(var(--header) + 24px); }
   .hero::before { background: linear-gradient(0deg, rgba(20, 14, 6, .92) 0%, rgba(20, 14, 6, .7) 45%, rgba(20, 14, 6, .2) 75%), linear-gradient(180deg, rgba(20, 14, 6, .6) 0%, rgba(20, 14, 6, 0) 25%); }
-  .hero__bg img { width: 100%; height: 58%; object-position: 50% 45%; -webkit-mask-image: linear-gradient(180deg, #000 70%, transparent 100%); mask-image: linear-gradient(180deg, #000 70%, transparent 100%); }
+  .hero__bg img { width: 100%; height: 40%; top: var(--header); object-position: 50% 88%; -webkit-mask-image: linear-gradient(180deg, #000 70%, transparent 100%); mask-image: linear-gradient(180deg, #000 70%, transparent 100%); }
   .hero h1 { font-size: clamp(30px, 8.6vw, 40px); }
   .hero__lead { margin-bottom: 26px; }
   .hero__cta { flex-direction: column; }
