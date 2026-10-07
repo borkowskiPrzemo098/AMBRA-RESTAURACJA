@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100,400;100,500;100,600;100,700;125,500;125,600;125,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=10">
+<link rel="stylesheet" href="style.css?v=11">
 </head>
 <body>
 <!--
@@ -46,12 +46,8 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 
 <main id="top">
 <section class="hero" aria-labelledby="hero-h">
-  <picture class="hero__bg">
-    <source media="(max-width: 700px)" srcset="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=900&q=80">
-    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=2200&q=80" alt="Danie podane na białym talerzu przy nakrytym stole" fetchpriority="high">
-  </picture>
+  <div class="hero__bg"><img src="https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=2200&q=80" alt="Plastry różowej piersi z kaczki z Żuław" fetchpriority="high"></div>
   <div class="wrap hero__in">
-    <p class="status" id="status" aria-live="polite"><span class="status__dot"></span><span id="statusText">Kolacje od 17:30</span></p>
     <h1 id="hero-h">Kuchnia Pomorza w&nbsp;dziewięciu daniach</h1>
     <p class="hero__lead">Restauracja degustacyjna na Długim Pobrzeżu. Dwadzieścia cztery miejsca, jedna kolacja każdego wieczoru — z&nbsp;tego, co daje Bałtyk, Kaszuby i&nbsp;Żuławy.</p>
     <div class="hero__cta">
@@ -62,7 +58,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
   <div class="hero__bar">
     <div class="wrap hero__bar-in">
       <span>Długie Pobrzeże 7, Gdańsk</span>
-      <span>śr–sob 17:30–23:00 · nd 13:00–20:00</span>
+      <span class="status" id="status" aria-live="polite"><span class="status__dot"></span><span id="statusText">Kolacje od 17:30</span></span>
       <a href="tel:+48583205500">+48 58 320 55 00</a>
     </div>
   </div>
@@ -74,11 +70,6 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
       <h2 id="intro-h" class="h2">Każdy talerz ma swój adres</h2>
       <p class="intro__lead">Sandacz z&nbsp;Zalewu Wiślanego, kaczka z&nbsp;Żuław, jabłka z&nbsp;sadu pod Kartuzami. Gotujemy z&nbsp;tego, co dostarcza siedemnaście pomorskich gospodarstw i&nbsp;łodzi rybackich.</p>
       <p>Szef kuchni Adam Rejewski przez osiem lat pracował w&nbsp;Kopenhadze, zanim w&nbsp;2014 roku otworzył AMBRĘ w&nbsp;kamienicy, w&nbsp;której jego dziadek miał warsztat bursztynniczy. Menu zmienia się z&nbsp;porami roku. Fermentujemy, wędzimy i&nbsp;pieczemy chleb na miejscu.</p>
-      <ul class="stats">
-        <li><strong>24</strong><span>miejsca</span></li>
-        <li><strong>17</strong><span>dostawców z&nbsp;Pomorza</span></li>
-        <li><strong>1200</strong><span>etykiet wina</span></li>
-      </ul>
     </div>
     <figure class="intro__img">
       <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=1000&q=80" alt="Szef kuchni wykańcza danie pęsetą" loading="lazy" width="1000" height="1250">
@@ -123,9 +114,9 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
       </div>
     </div>
     <ul class="pairs">
-      <li><span>Dobór klasyczny</span><strong>390 zł</strong><p>Siedem kieliszków z&nbsp;małych winnic Europy i&nbsp;Polski.</p></li>
-      <li class="pairs__gold"><span>Dobór Prestige</span><strong>790 zł</strong><p>Grand Cru z&nbsp;Burgundii, dojrzałe szampany, roczniki z&nbsp;piwnicy.</p></li>
-      <li><span>Bez alkoholu</span><strong>190 zł</strong><p>Kombuche, fermentowane soki i&nbsp;napary z&nbsp;naszej kuchni.</p></li>
+      <li><h3>Dobór klasyczny</h3><p>Siedem kieliszków z&nbsp;małych winnic Europy i&nbsp;Polski.</p><strong>390 zł</strong></li>
+      <li class="pairs__gold"><h3>Dobór Prestige</h3><p>Grand Cru z&nbsp;Burgundii, dojrzałe szampany, roczniki z&nbsp;piwnicy.</p><strong>790 zł</strong></li>
+      <li><h3>Bez alkoholu</h3><p>Kombuche, fermentowane soki i&nbsp;napary z&nbsp;naszej kuchni.</p><strong>190 zł</strong></li>
     </ul>
   </div>
 </section>
@@ -153,21 +144,18 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 <section class="reviews" aria-labelledby="rev-h">
   <div class="wrap">
     <h2 id="rev-h" class="h2">Goście o&nbsp;AMBRZE</h2>
+    <figure class="rev__lead">
+      <blockquote>Śledź z&nbsp;kiszonym jabłkiem i&nbsp;masłem z&nbsp;ikry to danie, które będę wspominać latami. Obsługa jak w&nbsp;najlepszych domach Kopenhagi.</blockquote>
+      <figcaption><b>Katarzyna M.</b> · kolacja rocznicowa, wrzesień 2026</figcaption>
+    </figure>
     <div class="rev">
-      <figure class="rev__card">
-        <div class="stars" role="img" aria-label="5 na 5 gwiazdek"><i></i><i></i><i></i><i></i><i></i></div>
-        <blockquote>Śledź z&nbsp;kiszonym jabłkiem i&nbsp;masłem z&nbsp;ikry to danie, które będę wspominać latami. Obsługa jak w&nbsp;najlepszych domach Kopenhagi.</blockquote>
-        <figcaption><b>Katarzyna M.</b><span>kolacja rocznicowa, wrzesień 2026</span></figcaption>
-      </figure>
-      <figure class="rev__card">
-        <div class="stars" role="img" aria-label="5 na 5 gwiazdek"><i></i><i></i><i></i><i></i><i></i></div>
+      <figure>
         <blockquote>Dobór Prestige z&nbsp;Chablis 2014 — sommelierka opowiadała o&nbsp;każdym winie tak, że chciało się zostać do rana.</blockquote>
-        <figcaption><b>Michał i&nbsp;Anna</b><span>menu Bursztyn, sierpień 2026</span></figcaption>
+        <figcaption><b>Michał i&nbsp;Anna</b> · menu Bursztyn, sierpień 2026</figcaption>
       </figure>
-      <figure class="rev__card">
-        <div class="stars" role="img" aria-label="5 na 5 gwiazdek"><i></i><i></i><i></i><i></i><i></i></div>
+      <figure>
         <blockquote>Menu Ogród przekonało nawet mojego męża. Siedem dań bez grama nudy, a&nbsp;tatar z&nbsp;buraka to mistrzostwo.</blockquote>
-        <figcaption><b>Ewa D.</b><span>menu Ogród, lipiec 2026</span></figcaption>
+        <figcaption><b>Ewa D.</b> · menu Ogród, lipiec 2026</figcaption>
       </figure>
     </div>
   </div>
@@ -293,6 +281,6 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 
 <a class="fab" href="#rezerwacja" id="fab">Zarezerwuj stolik</a>
 
-<script src="app.js?v=10"></script>
+<script src="app.js?v=11"></script>
 </body>
 </html>
