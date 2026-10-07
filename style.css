@@ -68,9 +68,9 @@ section { padding-block: clamp(80px, 11vw, 160px); }
 
 /* hero */
 .hero { padding-block: clamp(48px, 7vw, 96px) 0; }
-.hero__top { display: grid; grid-template-columns: 1.35fr 1fr; gap: 48px clamp(40px, 6vw, 110px); align-items: end; margin-bottom: clamp(48px, 6vw, 80px); }
-.hero h1 { font: 400 clamp(56px, 8.4vw, 136px)/.92 var(--serif); letter-spacing: -.035em; margin: 0; }
-.hero h1 em { display: inline-block; padding-left: .9em; }
+.hero__top { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 48px clamp(40px, 6vw, 110px); align-items: end; margin-bottom: clamp(48px, 6vw, 80px); }
+.hero h1 { font: 400 clamp(52px, 7.6vw, 124px)/.92 var(--serif); letter-spacing: -.035em; margin: 0; }
+.hero h1 em { display: inline-block; padding-left: .6em; white-space: nowrap; }
 .status { display: inline-flex; align-items: center; gap: 12px; font-size: 13px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; margin: 0 0 28px; color: var(--ink); }
 .status__dot { width: 8px; height: 8px; border-radius: 50%; background: var(--sand-2); }
 .status.is-open .status__dot { background: var(--ok); box-shadow: 0 0 0 5px rgba(77, 122, 69, .16); }
@@ -186,7 +186,7 @@ section { padding-block: clamp(80px, 11vw, 160px); }
 
 /* booking */
 .book { background: var(--sand); }
-.book__in { display: grid; grid-template-columns: .8fr 1.2fr; gap: clamp(40px, 6vw, 100px); align-items: start; }
+.book__in { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(40px, 6vw, 100px); align-items: start; }
 .book__aside { position: sticky; top: 110px; }
 .book__aside > p { color: var(--ink-2); max-width: 40ch; }
 .summary { background: var(--ink); color: var(--ivory); padding: 32px 34px; margin: 32px 0 24px; position: relative; }
@@ -203,7 +203,7 @@ section { padding-block: clamp(80px, 11vw, 160px); }
 .hours li { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid var(--sand-2); font-size: 16px; font-variant-numeric: tabular-nums; }
 .hours li.is-today { color: var(--gold-ink); font-weight: 600; }
 
-.form { background: var(--ivory); padding: clamp(28px, 4vw, 56px); box-shadow: var(--shadow); }
+.form { min-width: 0; background: var(--ivory); padding: clamp(28px, 4vw, 56px); box-shadow: var(--shadow); }
 fieldset { border: 0; padding: 0; margin: 0 0 30px; min-width: 0; }
 legend, .field label { font-size: 13px; letter-spacing: .16em; text-transform: uppercase; font-weight: 600; margin-bottom: 14px; display: flex; gap: 12px; align-items: baseline; flex-wrap: wrap; padding: 0; }
 .opt { text-transform: none; letter-spacing: 0; font-weight: 400; color: var(--ink-2); }

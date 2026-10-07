@@ -82,7 +82,7 @@ function showCourse(c) {
   if (img.src === src) return;
   clearTimeout(swapT);
   img.classList.add('is-swap');
-  swapT = setTimeout(() => { img.src = src; img.onload = () => img.classList.remove('is-swap'); }, 220);
+  swapT = setTimeout(() => { img.onload = img.onerror = () => img.classList.remove("is-swap"); img.src = src; }, 220);
 }
 function renderMenu(key) {
   const m = MENUS[key];
