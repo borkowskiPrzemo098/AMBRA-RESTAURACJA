@@ -39,7 +39,7 @@ const MENU = [
   { c: 'soup', n: 'Żurek na zakwasie żytnim', d: 'Biała kiełbasa z Kaszub, jajko, chrzan', p: 26, t: [] },
   { c: 'soup', n: 'Krem z pieczonej dyni', d: 'Pestki dyni, olej z pestek, kwaśna śmietana', p: 24, t: ['vege', 'gf'] },
   { c: 'soup', n: 'Rosół z kury zagrodowej', d: 'Domowy makaron, marchew, natka', p: 22, t: [] },
-  { c: 'main', n: 'Polędwica z Kaszub', d: 'Sezonowana 28 dni, masło z czosnkiem niedźwiedzim, pieczona marchew', p: 89, t: ['gf'] },
+  { c: 'main', n: 'Polędwica z Kaszub', d: 'Sezonowana 28 dni, masło z czosnkiem niedźwiedzim, frytki z rozmarynem', p: 89, t: ['gf'] },
   { c: 'main', n: 'Tagliatelle z kurkami', d: 'Ręcznie krojony makaron, śmietana, tymianek, parmezan', p: 46, t: ['vege'] },
   { c: 'main', n: 'Dorsz z Jastarni', d: 'Puree z selera, masło palone, kapusta pak choi', p: 64, t: ['gf'] },
   { c: 'main', n: 'Pierogi z kaszą i twarogiem', d: 'Skwarki lub cebula karmelizowana, kwaśna śmietana', p: 38, t: ['vege'] },
@@ -165,7 +165,7 @@ form.addEventListener('submit', e => {
   btn.textContent = 'Rezerwuję…';
   setTimeout(() => {
     const people = form.people.value;
-    const label = people === '6' ? '5–6 osób' : people === '8' ? '7–8 osób' : people === '1' ? '1 osobę' : `${people} osoby`;
+    const label = people === '6' ? '5–6 osób' : people === '8' ? '7–8 osób' : people === '1' ? '1 osoby' : `${people} osób`;
     const d = new Date(date.value + 'T12:00').toLocaleDateString('pl-PL', { weekday: 'long', day: 'numeric', month: 'long' });
     document.getElementById('doneText').textContent = `Stolik dla ${label}, ${d}, godz. ${time.value}. SMS z potwierdzeniem wyślemy na numer ${form.phone.value.trim()}.`;
     document.getElementById('formBody').hidden = true;
