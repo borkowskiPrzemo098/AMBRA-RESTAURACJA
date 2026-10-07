@@ -1,0 +1,416 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-07T15:03:54.716Z",
+  "title": "Design System: AMBRA",
+  "extensions": {
+    "colorMeta": {
+      "plaster-white": {
+        "role": "neutral",
+        "displayName": "Plaster White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#262626",
+          "#424242",
+          "#5e5e5e",
+          "#7a7a7a",
+          "#999999",
+          "#b8b8b8",
+          "#d6d6d6",
+          "#f2f2f2"
+        ]
+      },
+      "warm-paper": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "canonical": "#fbf8f2",
+        "tonalRamp": [
+          "#3a2d12",
+          "#654e1f",
+          "#906f2c",
+          "#bb903a",
+          "#cfab63",
+          "#ddc492",
+          "#ecddc1",
+          "#f9f5eb"
+        ]
+      },
+      "sandstone": {
+        "role": "neutral",
+        "displayName": "Sandstone",
+        "canonical": "#ecdfc8",
+        "tonalRamp": [
+          "#392b14",
+          "#634b22",
+          "#8c6b30",
+          "#b68b3f",
+          "#cba767",
+          "#dac195",
+          "#eadcc2",
+          "#f8f4ec"
+        ]
+      },
+      "sandstone-deep": {
+        "role": "neutral",
+        "displayName": "Deep Sandstone",
+        "canonical": "#dcc7a2",
+        "tonalRamp": [
+          "#382b15",
+          "#604b24",
+          "#896a34",
+          "#b28a43",
+          "#c7a66b",
+          "#d8c197",
+          "#e9dbc4",
+          "#f8f4ec"
+        ]
+      },
+      "sand-line": {
+        "role": "neutral",
+        "displayName": "Sand Line",
+        "canonical": "#e3d5bb",
+        "tonalRamp": [
+          "#362b16",
+          "#5e4b27",
+          "#866a37",
+          "#ad8a47",
+          "#c4a66e",
+          "#d5c19a",
+          "#e7dbc5",
+          "#f8f4ed"
+        ]
+      },
+      "gilding": {
+        "role": "primary",
+        "displayName": "Gilding",
+        "canonical": "#b08a3e",
+        "tonalRamp": [
+          "#392c14",
+          "#624d23",
+          "#8c6d31",
+          "#b58e40",
+          "#caa968",
+          "#dac395",
+          "#eaddc3",
+          "#f8f4ec"
+        ]
+      },
+      "gilding-bright": {
+        "role": "primary",
+        "displayName": "Bright Gilding",
+        "canonical": "#c9a457",
+        "tonalRamp": [
+          "#3a2d13",
+          "#644e20",
+          "#8f6f2e",
+          "#b9903c",
+          "#cdab65",
+          "#dcc493",
+          "#ebdec1",
+          "#f9f5ec"
+        ]
+      },
+      "gilding-ink": {
+        "role": "primary",
+        "displayName": "Gilding Ink",
+        "canonical": "#7a5c22",
+        "tonalRamp": [
+          "#3c2d11",
+          "#684e1d",
+          "#946f29",
+          "#bf9035",
+          "#d3ab5f",
+          "#e0c48f",
+          "#eddebf",
+          "#f9f5eb"
+        ]
+      },
+      "tar-ink": {
+        "role": "neutral",
+        "displayName": "Tar Ink",
+        "canonical": "#221c14",
+        "tonalRamp": [
+          "#30281c",
+          "#534531",
+          "#776246",
+          "#9a7f5b",
+          "#b39d7f",
+          "#cabaa5",
+          "#e1d8cc",
+          "#f6f3ef"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "#554a3a",
+        "tonalRamp": [
+          "#2d281f",
+          "#4f4536",
+          "#70624d",
+          "#927f63",
+          "#ac9d86",
+          "#c5baaa",
+          "#ded8ce",
+          "#f5f3f0"
+        ]
+      },
+      "on-gold": {
+        "role": "neutral",
+        "displayName": "On-Gold",
+        "canonical": "#1b150d",
+        "tonalRamp": [
+          "#342819",
+          "#5a462b",
+          "#7f633d",
+          "#a58150",
+          "#bd9e75",
+          "#d1bb9f",
+          "#e4d8c8",
+          "#f7f3ee"
+        ]
+      },
+      "ticket-muted": {
+        "role": "neutral",
+        "displayName": "Ticket Muted",
+        "canonical": "#bfb19a",
+        "tonalRamp": [
+          "#2f281e",
+          "#514633",
+          "#746349",
+          "#96815f",
+          "#b09f82",
+          "#c8bba8",
+          "#dfd8cd",
+          "#f5f3ef"
+        ]
+      },
+      "error-brick": {
+        "role": "error",
+        "displayName": "Error Brick",
+        "canonical": "#a5361f",
+        "tonalRamp": [
+          "#3d170f",
+          "#6a281b",
+          "#973926",
+          "#c44a31",
+          "#d6715c",
+          "#e29b8d",
+          "#efc6be",
+          "#faedeb"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline on photography only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings, expanded uppercase."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Tab, option, pairing and legend names."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Section intro paragraphs."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Reading copy at 44-60ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Buttons, CTA bar, footer heads, ticket field names."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Prices and ticket total, tabular numerals."
+      }
+    },
+    "shadows": [
+      {
+        "name": "floating-cta",
+        "value": "0 12px 28px -10px rgba(30, 20, 5, .6)",
+        "purpose": "Sticky mobile reserve bar."
+      },
+      {
+        "name": "drop-panel",
+        "value": "0 20px 30px -20px rgba(0, 0, 0, .35)",
+        "purpose": "Mobile nav panel."
+      },
+      {
+        "name": "header-rule",
+        "value": "0 1px 0 #e3d5bb",
+        "purpose": "Bottom hairline of the solid header."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "All state transitions, nav underline wipe, burger, hero image settle."
+      },
+      {
+        "name": "state",
+        "value": ".25s",
+        "purpose": "Button, tab and arrow color changes."
+      },
+      {
+        "name": "hero-settle",
+        "value": "scale(1.08) to 1 over 2.4s",
+        "purpose": "Hero photo entrance; disabled under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "phone",
+        "value": "640px"
+      },
+      {
+        "name": "tablet",
+        "value": "1000px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Gold Button",
+      "kind": "button",
+      "refersTo": "button-gold",
+      "description": "Primary reservation action.",
+      "html": "<button class=\"ds-btn ds-btn-gold\">Zarezerwuj stolik</button>",
+      "css": ":host{--white:#fff;--paper:#fbf8f2;--sand:#ecdfc8;--sand-2:#dcc7a2;--gold:#b08a3e;--gold-hi:#c9a457;--gold-ink:#7a5c22;--ink:#221c14;--ink-2:#554a3a;--line:#e3d5bb;--ease:cubic-bezier(.16,1,.3,1);--font:\"Archivo\",system-ui,sans-serif} .ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:14px 28px;font:600 14px/1.1 var(--font);font-stretch:125%;letter-spacing:.08em;text-transform:uppercase;border:2px solid transparent;border-radius:0;cursor:pointer;transition:background-color .25s,color .25s,border-color .25s,transform .25s var(--ease)} .ds-btn:focus-visible{outline:2px solid var(--gold);outline-offset:3px} .ds-btn-gold{background:var(--gold);color:#1b150d} .ds-btn-gold:hover{background:var(--gold-hi);transform:translateY(-2px)} .ds-btn-gold:active{transform:none}"
+    },
+    {
+      "name": "Dark Button",
+      "kind": "button",
+      "refersTo": "button-dark",
+      "description": "Secondary action on light ground.",
+      "html": "<button class=\"ds-btn ds-btn-dark\">Zapytaj o termin</button>",
+      "css": ":host{--white:#fff;--paper:#fbf8f2;--sand:#ecdfc8;--sand-2:#dcc7a2;--gold:#b08a3e;--gold-hi:#c9a457;--gold-ink:#7a5c22;--ink:#221c14;--ink-2:#554a3a;--line:#e3d5bb;--ease:cubic-bezier(.16,1,.3,1);--font:\"Archivo\",system-ui,sans-serif} .ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:14px 28px;font:600 14px/1.1 var(--font);font-stretch:125%;letter-spacing:.08em;text-transform:uppercase;border:2px solid transparent;border-radius:0;cursor:pointer;transition:background-color .25s,color .25s,border-color .25s,transform .25s var(--ease)} .ds-btn:focus-visible{outline:2px solid var(--gold);outline-offset:3px} .ds-btn-dark{background:var(--ink);color:var(--paper)} .ds-btn-dark:hover{background:var(--gold);color:#1b150d}"
+    },
+    {
+      "name": "Light Button on Photo",
+      "kind": "button",
+      "refersTo": "button-light-on-photo",
+      "description": "Outline action over the hero photograph only.",
+      "html": "<div class=\"ds-photo\"><button class=\"ds-btn ds-btn-light\">Zobacz menu</button></div>",
+      "css": ":host{--white:#fff;--paper:#fbf8f2;--sand:#ecdfc8;--sand-2:#dcc7a2;--gold:#b08a3e;--gold-hi:#c9a457;--gold-ink:#7a5c22;--ink:#221c14;--ink-2:#554a3a;--line:#e3d5bb;--ease:cubic-bezier(.16,1,.3,1);--font:\"Archivo\",system-ui,sans-serif} .ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:14px 28px;font:600 14px/1.1 var(--font);font-stretch:125%;letter-spacing:.08em;text-transform:uppercase;border:2px solid transparent;border-radius:0;cursor:pointer;transition:background-color .25s,color .25s,border-color .25s,transform .25s var(--ease)} .ds-btn:focus-visible{outline:2px solid var(--gold);outline-offset:3px} .ds-photo{background:#221c14;padding:24px} .ds-btn-light{min-height:60px;padding:18px 34px;font-size:15px;background:transparent;color:#fff;border-color:rgba(255,255,255,.85)} .ds-btn-light:hover{background:#fff;color:var(--ink)}"
+    },
+    {
+      "name": "Tasting-menu Tabs",
+      "kind": "chip",
+      "refersTo": "tab",
+      "description": "Three-up segmented menu selector with ink inversion.",
+      "html": "<div class=\"ds-tabs\"><button class=\"ds-tab is-on\"><b>Bursztyn</b><span>9 dań · 590 zł</span></button><button class=\"ds-tab\"><b>Bałtyk</b><span>6 dań · 420 zł</span></button><button class=\"ds-tab\"><b>Ogród</b><span>7 dań · 380 zł</span></button></div>",
+      "css": ":host{--white:#fff;--paper:#fbf8f2;--sand:#ecdfc8;--sand-2:#dcc7a2;--gold:#b08a3e;--gold-hi:#c9a457;--gold-ink:#7a5c22;--ink:#221c14;--ink-2:#554a3a;--line:#e3d5bb;--ease:cubic-bezier(.16,1,.3,1);--font:\"Archivo\",system-ui,sans-serif} .ds-tabs{display:grid;grid-template-columns:repeat(3,1fr);border:2px solid var(--ink);background:var(--paper);font-family:var(--font)} .ds-tab{display:grid;gap:4px;padding:18px 20px;border:0;background:transparent;color:var(--ink);text-align:left;cursor:pointer;font-family:inherit;transition:background-color .25s,color .25s} .ds-tab+.ds-tab{border-left:2px solid var(--ink)} .ds-tab b{font-size:19px;font-weight:700;font-stretch:125%;text-transform:uppercase} .ds-tab span{font-size:14px;color:var(--ink-2)} .ds-tab:hover{background:var(--white)} .ds-tab.is-on{background:var(--ink);color:var(--paper)} .ds-tab.is-on span{color:var(--gold-hi)} .ds-tab:focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Square paper field; border turns gold on focus.",
+      "html": "<label class=\"ds-field\"><span>Imię i nazwisko</span><input placeholder=\"Jan Kowalski\"></label>",
+      "css": ":host{--white:#fff;--paper:#fbf8f2;--sand:#ecdfc8;--sand-2:#dcc7a2;--gold:#b08a3e;--gold-hi:#c9a457;--gold-ink:#7a5c22;--ink:#221c14;--ink-2:#554a3a;--line:#e3d5bb;--ease:cubic-bezier(.16,1,.3,1);--font:\"Archivo\",system-ui,sans-serif} .ds-field{display:block;font-family:var(--font)} .ds-field span{display:block;font-size:14px;font-weight:600;margin-bottom:6px;color:var(--ink)} .ds-field input{display:block;width:100%;box-sizing:border-box;min-height:54px;padding:13px 14px;font:400 16px/1.3 var(--font);color:var(--ink);background:var(--paper);border:2px solid var(--line);border-radius:0;transition:border-color .2s,background-color .2s} .ds-field input:focus{outline:none;border-color:var(--gold);background:var(--white)} .ds-field input::placeholder{color:#8b7d66}"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "refersTo": "",
+      "description": "Solid-state header with gable wordmark and wipe-underline links.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-brand\" href=\"#\"><svg viewBox=\"0 0 22 22\"><path d=\"M1 21V9h3V5h3V1h8v4h3v4h3v12z\"/></svg><span>AMBRA</span></a><div><a href=\"#\">Menu</a><a href=\"#\">Wina</a><a href=\"#\">Sala prywatna</a></div></nav>",
+      "css": ":host{--white:#fff;--paper:#fbf8f2;--sand:#ecdfc8;--sand-2:#dcc7a2;--gold:#b08a3e;--gold-hi:#c9a457;--gold-ink:#7a5c22;--ink:#221c14;--ink-2:#554a3a;--line:#e3d5bb;--ease:cubic-bezier(.16,1,.3,1);--font:\"Archivo\",system-ui,sans-serif} .ds-nav{display:flex;justify-content:space-between;align-items:center;height:76px;padding:0 20px;background:var(--paper);color:var(--ink);box-shadow:0 1px 0 var(--line);font-family:var(--font)} .ds-brand{display:inline-flex;align-items:center;gap:12px;color:inherit;text-decoration:none} .ds-brand svg{width:26px;height:26px;fill:var(--gold)} .ds-brand span{font-size:22px;font-weight:700;letter-spacing:.22em;font-stretch:125%} .ds-nav div{display:flex;gap:30px} .ds-nav div a{color:inherit;font-size:15px;font-weight:500;text-decoration:none;padding-block:6px;background:linear-gradient(var(--gold),var(--gold)) 0 100%/0 2px no-repeat;transition:background-size .35s var(--ease)} .ds-nav div a:hover{background-size:100% 2px} .ds-nav a:focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+    },
+    {
+      "name": "Boarding-pass Ticket",
+      "kind": "custom",
+      "refersTo": "ticket",
+      "description": "Reservation summary as a perforated dark stub with tabular figures.",
+      "html": "<aside class=\"ds-ticket\"><div class=\"ds-th\">Ambra · Długie Pobrzeże 7</div><dl><div><dt>Menu</dt><dd>Bursztyn</dd></div><div><dt>Goście</dt><dd>2</dd></div><div><dt>Data</dt><dd>14.11</dd></div><div><dt>Godzina</dt><dd>19:00</dd></div></dl><div class=\"ds-perf\"></div><div class=\"ds-total\"><span>Razem</span><strong>1 180 zł</strong></div></aside>",
+      "css": ":host{--white:#fff;--paper:#fbf8f2;--sand:#ecdfc8;--sand-2:#dcc7a2;--gold:#b08a3e;--gold-hi:#c9a457;--gold-ink:#7a5c22;--ink:#221c14;--ink-2:#554a3a;--line:#e3d5bb;--ease:cubic-bezier(.16,1,.3,1);--font:\"Archivo\",system-ui,sans-serif} .ds-ticket{max-width:340px;background:var(--ink);color:var(--paper);padding:26px;font-family:var(--font)} .ds-th{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-hi);padding-bottom:18px;border-bottom:1px solid rgba(201,164,87,.35)} .ds-ticket dl{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:18px 0 0} .ds-ticket dt{font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:#bfb19a} .ds-ticket dd{margin:2px 0 0;font-size:17px;font-weight:600;font-variant-numeric:tabular-nums} .ds-perf{position:relative;height:2px;margin:22px -26px;background:repeating-linear-gradient(90deg,rgba(201,164,87,.5) 0 8px,transparent 8px 14px)} .ds-perf::before,.ds-perf::after{content:\"\";position:absolute;top:50%;width:22px;height:22px;border-radius:50%;background:var(--paper);transform:translateY(-50%)} .ds-perf::before{left:-11px} .ds-perf::after{right:-11px} .ds-total{display:flex;justify-content:space-between;align-items:baseline} .ds-total span{font-size:14px;color:#bfb19a} .ds-total strong{font-size:30px;font-weight:700;font-stretch:125%;color:var(--gold-hi);font-variant-numeric:tabular-nums}"
+    },
+    {
+      "name": "Gable Feature Image",
+      "kind": "card",
+      "refersTo": "",
+      "description": "Feature photograph with stepped-gable top edge and gold caption plate.",
+      "html": "<figure class=\"ds-gable\"><div class=\"ds-img\"></div><figcaption><b>Adam Rejewski</b><span>szef kuchni</span></figcaption></figure>",
+      "css": ":host{--white:#fff;--paper:#fbf8f2;--sand:#ecdfc8;--sand-2:#dcc7a2;--gold:#b08a3e;--gold-hi:#c9a457;--gold-ink:#7a5c22;--ink:#221c14;--ink-2:#554a3a;--line:#e3d5bb;--ease:cubic-bezier(.16,1,.3,1);--font:\"Archivo\",system-ui,sans-serif} .ds-gable{position:relative;margin:0;width:280px;font-family:var(--font)} .ds-img{aspect-ratio:4/5;background:linear-gradient(160deg,#8a6a3a,#2a2015);clip-path:polygon(0 9%,16% 9%,16% 4.5%,32% 4.5%,32% 0,68% 0,68% 4.5%,84% 4.5%,84% 9%,100% 9%,100% 100%,0 100%)} .ds-gable figcaption{position:absolute;left:0;bottom:0;background:var(--gold);color:#1b150d;padding:14px 20px;display:grid;line-height:1.3} .ds-gable b{font-stretch:125%;text-transform:uppercase;font-size:15px} .ds-gable span{font-size:14px}"
+    },
+    {
+      "name": "Gallery Arrow",
+      "kind": "button",
+      "refersTo": "gallery-arrow",
+      "description": "Circular ink-outlined control for the horizontal gallery strip.",
+      "html": "<button class=\"ds-arrow\" aria-label=\"Dalej\"><svg viewBox=\"0 0 24 24\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></button>",
+      "css": ":host{--white:#fff;--paper:#fbf8f2;--sand:#ecdfc8;--sand-2:#dcc7a2;--gold:#b08a3e;--gold-hi:#c9a457;--gold-ink:#7a5c22;--ink:#221c14;--ink-2:#554a3a;--line:#e3d5bb;--ease:cubic-bezier(.16,1,.3,1);--font:\"Archivo\",system-ui,sans-serif} .ds-arrow{width:54px;height:54px;border-radius:50%;border:2px solid var(--ink);background:transparent;color:var(--ink);display:grid;place-items:center;cursor:pointer;transition:background-color .25s,color .25s,transform .2s var(--ease)} .ds-arrow svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round} .ds-arrow:hover{background:var(--ink);color:var(--paper)} .ds-arrow:active{transform:scale(.94)} .ds-arrow:focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Gilded Townhouse",
+    "overview": "AMBRA is a Hanseatic townhouse on Długie Pobrzeże rendered as a page: whitewashed plaster, sandstone courses and gilt lettering on a facade, not cream-and-serif fine dining. Surfaces alternate between plaster white, warm paper and sandstone like storeys of a facade; gold appears as solid fields and thin lines, never as a gradient or glow. Headings are wide, uppercase Archivo set like carved signage; everything else is plain, legible Archivo.\n\nThe page is light and bright by commitment. The only dark surfaces are the full-bleed food photograph in the hero (with text set directly on it), the active tab or option, and the booking ticket. Density is generous: one idea per section, large type, big gold fields, sharp corners everywhere.",
+    "keyCharacteristics": [
+      "Light facade palette (white, paper, sandstone) with gold as the single accent family.",
+      "Archivo at 125% width, uppercase, for every heading, price and label; regular-width Archivo for reading.",
+      "Sharp rectangular geometry; the stepped Gdańsk gable is the one recurring silhouette.",
+      "Flat surfaces; depth from tonal section bands, 2px ink rules and gold fields.",
+      "Tabular figures for anything that is a number the guest compares (courses, prices, ticket)."
+    ],
+    "rules": [
+      {
+        "name": "The Facade Bands Rule",
+        "body": "Consecutive sections never share a background; they cycle white, paper and sandstone so the page reads as stacked storeys without dividers.",
+        "section": "colors"
+      },
+      {
+        "name": "The Gold Is a Field Rule",
+        "body": "Gold appears as flat solid fills and lines. Text in gold on light ground uses Gilding Ink (#7a5c22) only; mid gold (#b08a3e) is never body or label text on white or paper.",
+        "section": "colors"
+      },
+      {
+        "name": "The Light House Rule",
+        "body": "The page stays light. Dark ink surfaces are reserved for the photo hero overlay, selected states and the ticket; never a dark section band.",
+        "section": "colors"
+      },
+      {
+        "name": "The Expanded Caps Rule",
+        "body": "Every heading, price and button label is Archivo at 125% width in uppercase; nothing else is. Body copy is never set expanded or in caps.",
+        "section": "typography"
+      },
+      {
+        "name": "The Ledger Figures Rule",
+        "body": "Course numbers (01-09), prices and ticket data use tabular numerals so columns align.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Facade Rule",
+        "body": "Cards, images, buttons and forms carry no shadow. Only elements that float over scrolling content (mobile nav, sticky CTA) may cast one.",
+        "section": "elevation"
+      },
+      {
+        "name": "The One Gable Rule",
+        "body": "The stepped gable is the only decorative shape. Use it on at most one or two feature images per page and as the mark; never on gallery or menu photos, never rotated or mirrored.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do set every heading, price and button label in Archivo at 125% width, uppercase.",
+      "Do cycle section backgrounds through Plaster White (#ffffff), Warm Paper (#fbf8f2) and Sandstone (#ecdfc8).",
+      "Do use Gilding (#b08a3e) as solid fields and lines, with On-Gold (#1b150d) text on top; use Gilding Ink (#7a5c22) for gold text on light ground.",
+      "Do keep every box square-cornered and flat.",
+      "Do put hero text directly on a full-bleed food photograph, protected by a warm-black (rgba(20,14,6,…)) directional overlay.",
+      "Do render selected states (tab, option) as an ink inversion with bright-gold secondary text."
+    ],
+    "donts": [
+      "Don't use rounded corners on cards, buttons, inputs or images; circles are only for arrows, status dots and ticket notches.",
+      "Don't use gold gradients, metallic sheens or glows.",
+      "Don't add serif or thin display faces; the thin Bodoni direction was rejected as illegible.",
+      "Don't add dark section bands; dark is reserved for the hero photo, selected states and the ticket.",
+      "Don't add shadows to cards, images or buttons.",
+      "Don't apply the gable clip-path to every image; it marks feature photographs only."
+    ]
+  }
+}
